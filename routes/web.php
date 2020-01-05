@@ -11,6 +11,15 @@
 |
 */
 
+
+
 Route::get('/', function () {
-    return view('welcome');
+    return view('home.index');
+});
+
+Route::get('account/store', 'AccountController@store')->name('account.store');
+Route::get('contact/store', 'ContactController@store')->name('contact.store');
+
+Route::group(['prefix' => 'admin'], function () {
+    Voyager::routes();
 });

@@ -1,0 +1,108 @@
+.custom_button {
+    width: 120px;
+    height: 37px;
+    border-radius: 5px;
+    background-color: #3d9be9;
+    color: white;
+    font-weight: bold;
+}
+
+.chat_contact {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 60px;
+    background-color: #037CAA;
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+
+    /* text */
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+
+.chat_contact p button {
+    background-color: #037CAA;
+    color: white;
+}
+
+.modal-backdrop.show {
+    opacity: 0 !important;
+}
+
+.modal-backdrop {
+    position: static !important;
+}
+
+.modal-content {
+    position: fixed !important;
+    bottom: 0 !important;
+    right: 0 !important;
+    width: 380px !important;
+}
+
+
+.chat_header {
+    background-color: #037CAA;
+    color: white;
+    display: block !important;
+}
+
+.chat_header-2 {
+    font-size: 13px;
+}
+
+.chat_body-1 {
+    margin: 10px;
+}
+
+.chat_button {
+    width: 100px;
+}
+
+.submit_contact_s {
+    color: black;
+    font-size: 20px;
+}
+
+.submit_contact_f {
+    color: black;
+    font-size: 20px;
+}
+
+#IMAGE14 {
+    width: 80px;
+    height: 80px;
+
+}
+
+@keyframes tuanngoc {
+    from {
+        width: 76.625px;
+        height: 76.625px;
+    }
+
+    to {
+        width: 80px;
+        height: 80px;
+    }
+}
+
+.font_css {
+    font-size: 17px;
+    animation-name: tuanngoc_fontsize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite !important;
+}
+
+@keyframes tuanngoc_fontsize {
+    from {
+        font-size: 17px;
+    }
+
+    to {
+        font-size: 19px;
+    }
+}

@@ -1,0 +1,145 @@
+.page {
+    width: 100%;
+    background-image: url(../images/section_2.jpg);
+}
+
+.b_section-1 {
+    /* background-image: url(../images/layer_1.png); */
+    min-height: 338px;
+}
+
+.section-1 {
+    width: 100%;
+}
+
+.section-1_left {
+    /* background-image: url(../images/layer_1.png); */
+
+}
+
+.section-1_middle {
+
+    background-image: url(../images/section_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0;
+}
+
+.section-1_right {
+    /* background-image: url(../images/layer_2.png); */
+
+
+}
+
+.b_section-2 {
+    background-image: url(../images/section_2.jpg);
+    min-height: 500px;
+}
+
+.section-2_left {
+    /* background-image: url(../images/layer_1.png); */
+
+}
+
+.section-2_middle {
+
+    /* background-image: url(../images/section_1.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    top: 0;
+    padding: 0 !important;
+}
+
+.section-2_right {
+    /* background-image: url(../images/layer_2.png); */
+}
+
+.section-2_content {
+    border: 2px solid white;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+}
+
+.section-2_content h1 {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.footer {
+    width: 100%;
+    background-color: rgb(238, 235, 102);
+}
+
+.footer {
+    margin: 0 !important;
+}
+
+.footer_content {
+    margin: auto;
+    text-align: center;
+
+}
+
+.footer_content h1 {
+    font-weight: bold;
+    color: rgb(28, 16, 145);
+    font-size: 13px;
+    text-align: center;
+    line-height: 1.4;
+    margin: 30px;
+}
+
+.isoical {
+    width: 100%;
+    margin: auto;
+    background-color: #1c1c1c;
+    color: white;
+}
+
+.isoical h3 {
+    color: #eeeb66;
+}
+
+.isoical-1 {
+    margin: 25px 15px;
+}
+
+.isoical-1 h4 {
+    font-size: 15px;
+}
+
+.isoical-2 {
+    margin: 25px 15px;
+}
+
+.isoical-3 {
+    margin: 25px 15px;
+}
+
+.isoical_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.register {
+    color: white;
+}
+
+.register_content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.5;
+    background-color: black;
+}
+
+.register-content_left {
+    opacity: 0.8 !important;
+    background-color: black;
+}
