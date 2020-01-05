@@ -274,59 +274,60 @@
 
 
 
-        {{--  Chat--}}
-        <div class="chat_contact">
-            <div class="chat_c">
-                <button data-toggle="modal" data-target="#myModal">Ngoại tuyến</button>
-            </div>
 
-            <div class="modal" id="myModal">
-                <div class="modal-dialog">
-                    <div class="modal-content">
-
-                        <!-- Modal Header -->
-                        <div class="modal-header chat_header">
-                            <button type="button" class="close" data-dismiss="modal">&times;</button>
-                            <h4 class="chat_header-1"> Ngoại tuyến</h4>
-                            <h4 class="chat_header-2">Bạn vui lòng điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ
-                                lại với bạn ngay khi có thể.</h4>
-                        </div>
-
-                        <!-- Modal body -->
-                        <div class="modal-body chat_body">
-                            <div class="chat_body-1" id="load_submit_success">
-                                <form action="contact/store" method="get">
-                                    <div class="form-group">
-
-                                        <input type="name" class="form-control" id="text_name" placeholder="Tên...">
-                                    </div>
-                                    <div class="form-group">
-
-                                        <input type="email" class="form-control" id="text_email" placeholder="Email...">
-                                    </div>
-                                    <div class="form-group">
-
-                                        <input type="text" class="form-control textarea" name="content"
-                                            id="text_content" placeholder="Lời nhắn ...">
-                                    </div>
-                                    <button id="submit_contact" type="submit" class="btn btn-primary chat_button">
-                                        Gửi</button>
-                                </form>
+    </div>
+            {{--  Chat--}}
+            <div class="chat_contact">
+                <div class="chat_c">
+                    <button  class="chat_c_b" data-toggle="modal" data-target="#myModal">Ngoại tuyến</button>
+                </div>
+    
+                <div class="modal" id="myModal">
+                    <div class="modal-dialog">
+                        <div class="modal-content">
+    
+                            <!-- Modal Header -->
+                            <div class="modal-header chat_header">
+                                <button type="button" class="close" data-dismiss="modal">&times;</button>
+                                <h4 class="chat_header-1"> Ngoại tuyến</h4>
+                                <h4 class="chat_header-2">Bạn vui lòng điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ
+                                    lại với bạn ngay khi có thể.</h4>
                             </div>
+    
+                            <!-- Modal body -->
+                            <div class="modal-body chat_body">
+                                <div class="chat_body-1" id="load_submit_success">
+                                    <form action="contact/store" method="get">
+                                        <div class="form-group">
+    
+                                            <input type="name" class="form-control" id="text_name" placeholder="Tên...">
+                                        </div>
+                                        <div class="form-group">
+    
+                                            <input type="email" class="form-control" id="text_email" placeholder="Email...">
+                                        </div>
+                                        <div class="form-group">
+    
+                                            <input type="text" class="form-control textarea" name="content"
+                                                id="text_content" placeholder="Lời nhắn ...">
+                                        </div>
+                                        <button id="submit_contact" type="submit" class="btn btn-primary chat_button">
+                                            Gửi</button>
+                                    </form>
+                                </div>
+                            </div>
+    
+                            <!-- Modal footer -->
+                            <div class="modal-footer">
+    
+                            </div>
+    
                         </div>
-
-                        <!-- Modal footer -->
-                        <div class="modal-footer">
-
-                        </div>
-
                     </div>
                 </div>
             </div>
-        </div>
-
-        {{--  --}}
-    </div>
+    
+            {{--  --}}
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous">

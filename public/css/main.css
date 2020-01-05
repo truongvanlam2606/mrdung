@@ -422,29 +422,31 @@
 
 
 .chat_contact {
-    border-top-left-radius: 5px;
-    border-top-right-radius: 5px;
-    width: 120px;
-    height: 60px;
-    background-color: #037CAA;
+    /* border-top-left-radius: 5px;
+    border-top-right-radius: 5px; */
+    /* width: 120px;
+    height: 60px; */
+    /* background-color: #037CAA; */
     /* position: fixed;
     bottom: 0;
     right: 10px; */
 
     /* text */
-    line-height: 60px;
+    /* line-height: 60px;*/
     text-align: center;
     color: white;
 }
 
-.chat_contact button {
+.chat_contact .chat_c_b {
+    width: 120px;
+    height: 80px;
     background-color: #037CAA;
     color: white;
     border-radius: 50%;
     border: none;
 }
 
-.chat_c {
+.chat_c_b {
     position: fixed;
     bottom: 0;
     right: 10px;
