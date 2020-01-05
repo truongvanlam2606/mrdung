@@ -1,59 +1,117 @@
 .page {
     width: 100%;
     background-image: url(../images/section_2.jpg);
+    background-position: center;
+    background-size: contain;
 }
 
-.b_section-1 {
-    /* background-image: url(../images/layer_1.png); */
-    min-height: 338px;
-}
-
-.section-1 {
+.image {
     width: 100%;
 }
 
-.section-1_left {
-    /* background-image: url(../images/layer_1.png); */
-
-}
-
 .section-1_middle {
-
-    background-image: url(../images/section_1.png);
+    background-image: url(../images/bg_tuan.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
     top: 0;
-}
+    width: 100%;
+    margin: auto;
+    min-height: 338px;
 
-.section-1_right {
-    /* background-image: url(../images/layer_2.png); */
-
-
-}
-
-.b_section-2 {
-    background-image: url(../images/section_2.jpg);
-    min-height: 500px;
-}
-
-.section-2_left {
-    /* background-image: url(../images/layer_1.png); */
 
 }
+
+.section-des {
+    background-image: url(../images/bg_1.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    height: 153.313px;
+    width: 200px;
+    margin: auto;
+    top: -20px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.des-content {
+    color: white;
+    text-align: center;
+    margin: auto;
+
+}
+
+.section-des_logo {
+    top: -15px;
+    margin: 0 auto;
+}
+
+.des-logo {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+
+    animation-name: tuanngoc_logo;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes tuanngoc_logo {
+    from {
+        width: 80px;
+        height: 80px;
+        border-radius: 50%;
+    }
+
+    to {
+        width: 85px;
+        height: 85px;
+        border-radius: 50%;
+    }
+}
+
+.des-content h4 {
+    font-size: 17px;
+    animation-name: tuanngoc_fontsize;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+
+@keyframes tuanngoc_fontsize {
+    from {
+        font-size: 17px;
+    }
+
+    to {
+        font-size: 19px;
+    }
+}
+
+
+
+/* .b_section-2 {
+
+    min-height: 1000px;
+
+} */
+
 
 .section-2_middle {
 
-    /* background-image: url(../images/section_1.png); */
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: contain;
-    top: 0;
-    padding: 0 !important;
+    margin: 0 auto;
+
+
 }
 
-.section-2_right {
-    /* background-image: url(../images/layer_2.png); */
+.section-2-all {
+    height: 100%;
+    background-image: url(../images/pac_bg.jpg), url(../images/section_2.jpg);
+    background-position: right bottom, left top;
+    background-repeat: repeat, repeat;
 }
 
 .section-2_content {
@@ -62,6 +120,7 @@
     border-right-style: none;
     border-bottom-style: solid;
     border-left-style: none;
+
 }
 
 .section-2_content h1 {
@@ -69,6 +128,156 @@
     margin: 20px auto;
     text-align: center;
 }
+
+.section-2_logo {
+
+    display: flex;
+
+    justify-content: center;
+    min-height: 200px;
+
+}
+
+.s-2 {
+    margin: 20px;
+
+    position: relative;
+
+    animation-name: tuanngoc_s_2;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-delay: 2s;
+}
+
+@keyframes tuanngoc_s_2 {
+    from {
+        left: -150px;
+        right: -150px;
+    }
+
+    to {
+        left: 150px;
+        right: 150px;
+    }
+}
+
+.s-2_logo {
+
+    width: 150px;
+    height: 150px;
+}
+
+.section-2_about {
+    border: 2px solid white;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+
+}
+
+.section-2_about h1 {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+
+.section-2_video {
+    text-align: center;
+    margin: 20px auto;
+}
+
+
+
+.section-2_buy {
+    border: 2px solid white;
+    border-top-style: solid;
+    border-right-style: none;
+    border-bottom-style: solid;
+    border-left-style: none;
+
+}
+
+.section-2_buy h1 {
+    color: white;
+    margin: 20px auto;
+    text-align: center;
+}
+
+
+.section-2_info {
+    color: white;
+}
+
+.info_bank {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+
+    border-bottom: 3px solid#d2cd21;
+}
+
+.info_bank p {
+    font-size: 20px;
+}
+
+.bank_left {
+    border-right: 3px solid#d2cd21;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bank_left h4 {
+    color: #d2cd21;
+}
+
+.bank_left p {
+    font-size: 20px;
+}
+
+.bank_right {
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.bank_right h4 {
+    color: #d2cd21;
+}
+
+.bank_right p {
+    font-size: 20px;
+}
+
+.section-2_bank {
+    margin: 30px auto;
+}
+
+.section-2-price {
+    margin: 0 auto;
+}
+
+.price-content {
+    text-align: center;
+}
+
+.price-content h4 {
+    color: #d2cd21;
+}
+
+.price-table_1 {
+    margin: 20px;
+}
+
+.price-table_2 {
+    margin: 20px;
+}
+
+
 
 .footer {
     width: 100%;
@@ -101,12 +310,28 @@
     color: white;
 }
 
+.icon_isoical {
+    width: 85px;
+    height: 85px;
+    border-radius: 50%;
+}
+
+.isoical-2_image {
+    text-align: center;
+}
+
+.isoical-3_image {
+    text-align: center;
+}
+
+
 .isoical h3 {
     color: #eeeb66;
 }
 
 .isoical-1 {
     margin: 25px 15px;
+    margin-top: 0;
 }
 
 .isoical-1 h4 {
@@ -129,17 +354,113 @@
 
 .register {
     color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    background-color: #0a213b;
 }
 
 .register_content {
     display: flex;
     justify-content: center;
     align-items: center;
-    opacity: 0.5;
-    background-color: black;
+    /* opacity: 0.6;
+    background-color: black; */
 }
 
 .register-content_left {
     opacity: 0.8 !important;
     background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+
+
+    padding: 40px;
+}
+
+.l1 {
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.l2 {
+    border-bottom: 2px solid white;
+    margin-bottom: 20px;
+}
+
+.l1 h4 {
+    font-weight: bold;
+    text-decoration: line-through;
+}
+
+.l1 h3 {
+    font-weight: bold;
+    color: red;
+}
+
+.l1 h2 {
+    font-weight: bold;
+}
+
+.l3 h2 {
+    font-weight: bold;
+
+}
+
+.r1 {
+    text-align: center;
+}
+
+
+.register-content_right {
+    padding: 30px;
+}
+
+
+.chat_contact {
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    width: 120px;
+    height: 60px;
+    background-color: #037CAA;
+    /* position: fixed;
+    bottom: 0;
+    right: 10px; */
+
+    /* text */
+    line-height: 60px;
+    text-align: center;
+    color: white;
+}
+
+.chat_contact button {
+    background-color: #037CAA;
+    color: white;
+    border-radius: 50%;
+    border: none;
+}
+
+.chat_c {
+    position: fixed;
+    bottom: 0;
+    right: 10px;
+
+}
+
+.chat_header {
+    background-color: #037CAA;
+    color: white;
+    display: block !important;
+}
+
+.chat_header-2 {
+    font-size: 13px;
+}
+
+.chat_body-1 {
+    color: black;
 }

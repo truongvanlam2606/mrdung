@@ -5,61 +5,195 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>TUẤN NGỌC</title>
+    <link rel="shortcut icon" href="./images/favicon.ico" />
+
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
         integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./js/store_account.js"></script>
+    <script type="text/javascript" src="./js/store_contact.js"></script>
 </head>
 
 <body>
     <div class="page">
         {{-- section 1 --}}
-        <div class="section-1">
-            <div class="row b_section-1">
-                <div class="col-md-2 section-1_left">
-
-                </div>
-                <div class="col-md-8 section-1_middle">
-
-                </div>
-
-                <div class="col-md-2 section-1_right">
-
-                </div>
-
+        <div class="row section-1">
+            <div class="col-md-8 section-1_middle">
+                <img class="image" src="../images/bg_tuan.jpg">
 
             </div>
+
         </div>
         {{-- end section 1 --}}
+
+
+
+        {{-- section-description --}}
+        <div class="row">
+
+            <div class="col-md-8 section-des">
+                <div class="section-des_logo">
+                    <img class="des-logo" src="../images/logo_tuan.jpg">
+                </div>
+
+                <div class="des-content">
+                    <h4>Kết Bạn Ngay Với Zalo</h4>
+                    <h4>Tuấn Ngọc : 0833.666.666</h4>
+                </div>
+            </div>
+        </div>
+        {{-- end section description --}}
+
+
 
         {{-- section 2 --}}
         <div class="row b_section-2">
 
-            <div class="col-md-2 section-2_left">
-
-            </div>
             <div class="col-md-8 section-2_middle">
-                <div class="section-2_content">
-                    <h1 >HỆ THỐNG GAME - TỔNG ĐẠI LÝ - MrHùng</h1>
+                <div class="section-2-all">
+
+                    <div class="section-2_content">
+                        <h1>HỆ THỐNG GAME - TỔNG ĐẠI LÝ - TUẤN NGỌC</h1>
+                    </div>
+
+                    <div class="section-2_logo">
+                        <span class="s-2"> <img class="s-2_logo" src="../images/fan.png"> </span>
+                        <span class="s-2"> <img class="s-2_logo" src="../images/loc79.png"> </span>
+                    </div>
+
+                    <div class="section-2_about">
+                        <h1>VỀ CHÚNG TÔI</h1>
+                    </div>
+                    <div class="section-2_video">
+                        <video width="80%" controls autoplay>
+                            <source src="../images/video.mp4" type="video/mp4">
+                        </video>
+                    </div>
+
+                    <div class="section-2_buy">
+                        <h1>HƯỚNG DẪN MUA BÁN</h1>
+                    </div>
+
+                    <div class="section-2_info">
+                        <div class="info_bank">
+                            <h3> SỐ TÀI KHOẢN NGÂN HÀNG, MOMO </h3>
+                            <p> Nội dung bắt buộc: </p>
+                            <p> Mua thẻ cào + tên game + tên nhân vật + SĐT </p>
+                            <p> Ví dụ: Mua the cao Fan888 emgaihanoi 083xxx8888 </p>
+                        </div>
+
+                        <div class="row section-2_bank">
+                            <div class="col-md-6 bank_left">
+                                <h4>TÀI KHOẢN NGÂN HÀNG</h4>
+                                <p>Trần Văn Mạnh</p>
+                                <p> Techcombank: 19035125243011</p>
+                                <p> BIDV: 19910000764094</p>
+                                <p> Vietcombank: 0711000318433</p>
+                                <p> VietinBank: 109870906680</p>
+                                <p> AgriBank: 1300206424240</p>
+                                <p> SACOMBANK: 02008350963</p>
+                                <p> VP Bank: 197385073</p>
+                                <p> MB Bank: 0640114548005</p>
+                            </div>
+                            <div class="col-md-6 bank_right ">
+                                <h4> TÀI KHOẢN MOMO</h4>
+                                <p> Trần Văn Mạnh</p>
+                                <p> 0833.666.666</p>
+                            </div>
+                        </div>
+
+                        <div class=" section-2-price">
+
+                            <div class="price-content">
+                                <h4> BẢNG GIÁ MUA BÁN </h4>
+                            </div>
+
+                            <div class="price-table_1">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th>BÁN RA</th>
+                                        <th>Giá</th>
+                                        <th>Ví Dụ</th>
+                                      </tr>
+                                    </thead>
+                                    <thead style=" text-align: center;">
+                                        <tr>
+                                          <td>Nhận Tối Thiểu 100k VND</td>
+
+                                        </tr>
+                                      </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>< 200K</td>
+                                        <td>100</td>
+                                        <td>(100.000 VNĐ = 100.000 tiền game)</td>
+                                      </tr>
+                                      <tr>
+                                        <td>>= 200K</td>
+                                        <td>85</td>
+                                        <td>(850.000 VNĐ = 1.000.000 tiền game)</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+
+                            <div class="price-table_2">
+                                <table class="table table-dark table-hover">
+                                    <thead>
+                                      <tr>
+                                        <th>MUA VÀO</th>
+                                        <th>Giá</th>
+                                        <th>Ví Dụ</th>
+                                      </tr>
+                                    </thead>
+                                    <thead style=" text-align: center;">
+                                        <tr>
+                                          <td>Nhận Tối Thiểu 300k Game</td>
+
+                                        </tr>
+                                      </thead>
+                                    <tbody>
+                                      <tr>
+                                        <td>< 10tr game</td>
+                                        <td>80</td>
+                                        <td>(1.000.000 tiền game = 800.000 VNĐ)</td>
+                                      </tr>
+                                      <tr>
+                                        <td>>= 10tr game</td>
+                                        <td>81</td>
+                                        <td>(10.000.000 tiền game = 8.100.000 VNĐ)</td>
+                                      </tr>
+                                    </tbody>
+                                  </table>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+
                 </div>
-            </div>
-
-            <div class="col-md-2 section-2_right">
 
             </div>
+
         </div>
         {{-- end section 2 --}}
 
 
         {{--  register code --}}
-        <div class="register">
+        <div class="row register">
 
-            <div class="col-md-12 register_content">
+          <div class="col-md-8">
+            <div class="register_content">
 
                 <div class="register-content_left">
                     <div class="l1">
-                       <h4>CHỈ CÒN LẠI</h4>
-                       <h3>38</h3>
-                       <h2>GIFT CODE VIP</h2>
+                        <h4>CHỈ CÒN LẠI</h4>
+                        <h3>38</h3>
+                        <h2>GIFT CODE VIP</h2>
 
                     </div>
 
@@ -72,34 +206,29 @@
                     </div>
 
                 </div>
+
                 <div class="register-content_right">
                     <div class="r1">
-                        <h3></h3>
-                        <h4></h4>
+                        <h3>Đăng ký ngay nhận code VIP</h3>
+                        <p>Sau khi đăng ký nhận Code VIP trải nghiệm game, bộ phận CSKH của Đại Lý TUẤN NGỌC sẽ gửi Code tới số điện thoại Zalo đã được đăng ký, vui lòng để ý phần Kết Bạn ở Zalo để nhận Code.</p>
+                    </div>
+                    <div class="container" style="text-align: center;">
+                        <form action="account/store" method="get">
+                          <div class="form-group">
+                            <input type="text" class="form-control"  placeholder="Tên Nhân Vật ..."  id="text_user_name" name="user_name">
+                          </div>
+                          <div class="form-group">
+                         
+                            <input type="tel" class="form-control"  placeholder="SĐT Zalo ..."  id="text_number_phone" name="number_phone">
+                          </div>
 
-                    </div>
-                    <div class="r2">
-                        <span>1</span>
-                        <span>2</span>
-                        <span>3</span>
-                        <span>4</span>
-                    </div>
-                    <div class="r3">
-                        <form action="#" method="get">
-                            <div class="form-control">
-                                <input class="input" type="text" placeholder="Tên đăng nhập trong game">
-                            </div>
-                            <div class="form-control">
-                                <input class="input" type="text" placeholder="Sđt zalo">
-                            </div>
-                           
-                            <button> Nhận ngay</button>
+                          <button type="submit" id="store_account" class="btn btn-primary">Nhận Ngay</button>
                         </form>
-                    </div>
-
+                      </div>
                 </div>
 
             </div>
+          </div>
 
         </div>
 
@@ -113,21 +242,21 @@
             <div class="col-md-12 isoical_content">
                 <div class="isoical-1">
                     <h3>THÔNG TIN LIÊN HỆ</h3>
-                    <h4>- 0824.999.999</h4>
-                    <h4>- facebook.com/toisn201</h4>
+                    <h4>- 0833.666.666</h4>
+                    <h4>- 0843.19.8888</h4>
 
                 </div>
                 <div class="isoical-2">
-                    <h3>THEO DÕI MR HÙNG</h3>
-                    <div>
-                        <img src="pic_trulli.jpg" alt="Italian Trulli">
+                    <h3>THEO DÕI TUẤN NGỌC</h3>
+                    <div class="isoical-2_image">
+                        <img class="icon_isoical" src="../images/icon_fb.png" alt="Italian Trulli">
                     </div>
 
                 </div>
                 <div class="isoical-3">
                     <h3>CHỨNG NHẬN VỀ CHÚNG TÔI</h3>
-                    <div>
-                        <img src="pic_trulli.jpg" alt="Italian Trulli">
+                    <div class="isoical-2_image">
+                        <img class="icon_isoical" src="../images/logo_tuan.jpg" alt="Italian Trulli">
                     </div>
                 </div>
             </div>
@@ -138,10 +267,65 @@
         {{-- footer --}}
         <div class="row footer">
             <div class="footer_content">
-                <h1>©2017 HỆ THỐNG GAME - TỔNG ĐẠI LÝ - MrHùng</h1>
+                <h1>©2020 HỆ THỐNG GAME - TỔNG ĐẠI LÝ - TUẤN NGỌC</h1>
             </div>
         </div>
         {{-- end footer --}}
+
+
+
+        {{--  Chat--}}
+        <div class="chat_contact">
+            <div class="chat_c">
+                <button data-toggle="modal" data-target="#myModal">Ngoại tuyến</button>
+            </div>
+
+            <div class="modal" id="myModal">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+
+                        <!-- Modal Header -->
+                        <div class="modal-header chat_header">
+                            <button type="button" class="close" data-dismiss="modal">&times;</button>
+                            <h4 class="chat_header-1"> Ngoại tuyến</h4>
+                            <h4 class="chat_header-2">Bạn vui lòng điền vào biểu mẫu dưới đây và chúng tôi sẽ liên hệ
+                                lại với bạn ngay khi có thể.</h4>
+                        </div>
+
+                        <!-- Modal body -->
+                        <div class="modal-body chat_body">
+                            <div class="chat_body-1" id="load_submit_success">
+                                <form action="contact/store" method="get">
+                                    <div class="form-group">
+
+                                        <input type="name" class="form-control" id="text_name" placeholder="Tên...">
+                                    </div>
+                                    <div class="form-group">
+
+                                        <input type="email" class="form-control" id="text_email" placeholder="Email...">
+                                    </div>
+                                    <div class="form-group">
+
+                                        <input type="text" class="form-control textarea" name="content"
+                                            id="text_content" placeholder="Lời nhắn ...">
+                                    </div>
+                                    <button id="submit_contact" type="submit" class="btn btn-primary chat_button">
+                                        Gửi</button>
+                                </form>
+                            </div>
+                        </div>
+
+                        <!-- Modal footer -->
+                        <div class="modal-footer">
+
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        {{--  --}}
     </div>
 
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"

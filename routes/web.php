@@ -14,8 +14,12 @@
 
 
 Route::get('/', function () {
-    return view('home.index');
+    return view('home.index_custom');
 });
+
+// Route::get('/', function () {
+//     return view('home.index');
+// });
 
 Route::get('account/store', 'AccountController@store')->name('account.store');
 Route::get('contact/store', 'ContactController@store')->name('contact.store');
