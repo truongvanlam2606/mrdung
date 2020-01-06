@@ -40,7 +40,7 @@
 
                 <div class="des-content">
                     <h4>Kết Bạn Ngay Với Zalo</h4>
-                    <h4>Tuấn Ngọc : 0843.19.8888</h4>
+                    <a href="http://zalo.me/0843198888" style="color:white"><h4>Tuấn Ngọc : 0843.19.8888</h4></a>
                 </div>
             </div>
         </div>
