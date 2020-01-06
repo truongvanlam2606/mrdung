@@ -40,7 +40,7 @@
 
                 <div class="des-content">
                     <h4>Kết Bạn Ngay Với Zalo</h4>
-                    <h4>Tuấn Ngọc : 0833.666.666</h4>
+                    <h4>Tuấn Ngọc : 0843.19.8888</h4>
                 </div>
             </div>
         </div>
@@ -100,7 +100,7 @@
                             <div class="col-md-6 bank_right ">
                                 <h4> TÀI KHOẢN MOMO</h4>
                                 <p> Trần Văn Mạnh</p>
-                                <p> 0833.666.666</p>
+                                <p> 0843.19.8888</p>
                             </div>
                         </div>
 
@@ -242,14 +242,14 @@
             <div class="col-md-12 isoical_content">
                 <div class="isoical-1">
                     <h3>THÔNG TIN LIÊN HỆ</h3>
-                    <h4>- 0833.666.666</h4>
-                    <h4>- 0843.19.8888</h4>
+                    <h4><a style="color:white" href="tel:0833666666">- 0833.666.666</a></h4>
+                    <h4><a style="color:white" href="tel:0843198888">- 0843.19.8888</a></h4>
 
                 </div>
                 <div class="isoical-2">
                     <h3>THEO DÕI TUẤN NGỌC</h3>
                     <div class="isoical-2_image">
-                        <img class="icon_isoical" src="../images/icon_fb.png" alt="Italian Trulli">
+                       <a href="https://www.facebook.com/tuanngocdailydoithuongonlineuytin"><img class="icon_isoical" src="../images/icon_fb.png" alt="Italian Trulli"></a> 
                     </div>
 
                 </div>
@@ -271,7 +271,9 @@
             </div>
         </div>
         {{-- end footer --}}
+        <div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
 
+        <script src="https://sp.zalo.me/plugins/sdk.js"></script>
 
 
 

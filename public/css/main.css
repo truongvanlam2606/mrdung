@@ -438,7 +438,7 @@
 }
 
 .chat_contact .chat_c_b {
-    width: 120px;
+    width: 100px;
     height: 80px;
     background-color: #037CAA;
     color: white;
@@ -448,7 +448,7 @@
 
 .chat_c_b {
     position: fixed;
-    bottom: 0;
+    bottom: 80px;
     right: 10px;
 
 }
