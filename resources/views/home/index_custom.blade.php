@@ -107,7 +107,6 @@
                                 <h4> TÀI KHOẢN MOMO</h4>
                                 <p> Liên hệ hotline</p>
                                 <p><a style="color:white" href="tel:0833666666">0833.666.666</a></p>
-                                {{-- <p><a style="color:white" href="tel:0843198888">0843.19.8888</a></p> --}}
                                 
                             </div>
                         </div>
@@ -243,8 +242,9 @@
 
 
         {{-- end register code --}}
-        
-        <!-- Load Facebook SDK for JavaScript -->
+
+  
+      <!-- Load Facebook SDK for JavaScript -->
       <div id="fb-root"></div>
       <script>
         window.fbAsyncInit = function() {
@@ -271,6 +271,8 @@
   logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
       </div>
 
+    {{--  end fb--}}
+      
         {{-- isoical --}}
         <div class="isoical">
 
