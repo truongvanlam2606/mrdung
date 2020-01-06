@@ -40,7 +40,7 @@
 
                 <div class="des-content">
                     <h4>Kết Bạn Ngay Với Zalo</h4>
-                    <a href="http://zalo.me/0843198888" style="color:white"><h4>Tuấn Ngọc : 0843.19.8888</h4></a>
+                    <a href="http://zalo.me/0833666666" style="color:white"><h4>Tuấn Ngọc : 0833.666.666</h4></a>
                 </div>
             </div>
         </div>
@@ -64,7 +64,8 @@
                     </div>
 
                     <div class="section-2_about">
-                        <h1>VỀ CHÚNG TÔI</h1>
+                        <h1>LiÊN HỆ VỚI CHÚNG TÔI <a href="tel:0833666666"><img class="image_hotline" src="../images/phone_hotline.png" alt="hotline"></a> </h1>
+
                     </div>
                     <div class="section-2_video">
                         <video width="80%" id="video_auto" controls autoplay muted>
