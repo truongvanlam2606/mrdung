@@ -67,10 +67,15 @@
                         <h1>VỀ CHÚNG TÔI</h1>
                     </div>
                     <div class="section-2_video">
-                        <video width="80%" controls autoplay>
+                        <video width="80%" id="video_auto" controls autoplay muted>
                             <source src="../images/video.mp4" type="video/mp4">
                         </video>
                     </div>
+                    {{-- <script>
+                        jQuery( document ).ready(function($) {
+                            $("#video_auto")[0].play();
+                        });
+                    </script> --}}
 
                     <div class="section-2_buy">
                         <h1>HƯỚNG DẪN MUA BÁN</h1>
