@@ -105,8 +105,10 @@
                             </div>
                             <div class="col-md-6 bank_right ">
                                 <h4> TÀI KHOẢN MOMO</h4>
-                                <p> Trần Văn Mạnh</p>
-                                <p> 0843.19.8888</p>
+                                <p> Liên hệ hotline</p>
+                                <p><a style="color:white" href="tel:0833666666">0833.666.666</a></p>
+                                <p><a style="color:white" href="tel:0843198888">0843.19.8888</a></p>
+                                
                             </div>
                         </div>
 
