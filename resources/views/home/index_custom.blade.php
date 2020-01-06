@@ -17,6 +17,34 @@
 </head>
 
 <body>
+       <!-- Load Facebook SDK for JavaScript -->
+       <div id="fb-root"></div>
+       <script>
+         window.fbAsyncInit = function() {
+           FB.init({
+             xfbml            : true,
+             version          : 'v5.0'
+           });
+         };
+ 
+         (function(d, s, id) {
+         var js, fjs = d.getElementsByTagName(s)[0];
+         if (d.getElementById(id)) return;
+         js = d.createElement(s); js.id = id;
+         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+         fjs.parentNode.insertBefore(js, fjs);
+       }(document, 'script', 'facebook-jssdk'));</script>
+ 
+       <!-- Your customer chat code -->
+       <div class="fb-customerchat"
+         attribution=setup_tool
+         page_id="1618735408372301"
+   theme_color="#0084ff"
+   logged_in_greeting="Xin chào, mình có thể giúp gì cho bạn?"
+   logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
+       </div>
+ 
+     {{--  end fb--}}
     <div class="page">
         {{-- section 1 --}}
         <div class="row section-1">
@@ -244,34 +272,7 @@
         {{-- end register code --}}
 
   
-      <!-- Load Facebook SDK for JavaScript -->
-      <div id="fb-root"></div>
-      <script>
-        window.fbAsyncInit = function() {
-          FB.init({
-            xfbml            : true,
-            version          : 'v5.0'
-          });
-        };
-
-        (function(d, s, id) {
-        var js, fjs = d.getElementsByTagName(s)[0];
-        if (d.getElementById(id)) return;
-        js = d.createElement(s); js.id = id;
-        js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-        fjs.parentNode.insertBefore(js, fjs);
-      }(document, 'script', 'facebook-jssdk'));</script>
-
-      <!-- Your customer chat code -->
-      <div class="fb-customerchat"
-        attribution=setup_tool
-        page_id="1618735408372301"
-  theme_color="#0084ff"
-  logged_in_greeting="Xin chào, mình có thể giúp gì cho bạn?"
-  logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
-      </div>
-
-    {{--  end fb--}}
+   
       
         {{-- isoical --}}
         <div class="isoical">
@@ -308,9 +309,6 @@
             </div>
         </div>
         {{-- end footer --}}
-        {{-- <div class="zalo-chat-widget" data-oaid="579745863508352884" data-welcome-message="Rất vui khi được hỗ trợ bạn!" data-autopopup="0" data-width="350" data-height="420"></div>
-
-        <script src="https://sp.zalo.me/plugins/sdk.js"></script> --}}
 
 
 
