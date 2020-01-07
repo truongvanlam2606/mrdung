@@ -49,7 +49,7 @@
         {{-- section 1 --}}
         <div class="row section-1">
             <div class="col-md-8 section-1_middle">
-                <img class="image" src="../images/bg_tuan.jpg">
+                <img class="image" src="../images/bg_tn.jpg">
 
             </div>
 
