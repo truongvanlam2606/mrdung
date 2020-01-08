@@ -292,7 +292,7 @@
       <script>
         window.fbAsyncInit = function() {
           FB.init({
-            appId            : '2770035899779126',
+            appId            : '1430707053762200',
             autoLogAppEvents : true,
             xfbml            : true,
             version          : 'v5.0'
@@ -310,7 +310,7 @@
       <!-- Your customer chat code -->
       <div class="fb-customerchat"
         attribution=setup_tool
-        page_id="1618735408372301"
+        page_id="1766729226911214"
         theme_color="#0084ff"
         logged_in_greeting="Xin chào, mình có thể giúp gì cho bạn?"
         logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
