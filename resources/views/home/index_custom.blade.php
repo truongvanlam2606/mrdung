@@ -17,14 +17,14 @@
 </head>
 
 <body>
-    <style>
+    {{-- <style>
         .fb_dialog {
         position: -webkit-sticky !important;
         position: fixed !important;
         bottom: 20px !important;
         left: 20px !important;
 }
-    </style>
+    </style> --}}
        <!-- Load Facebook SDK for JavaScript -->
        <div id="fb-root"></div>
        <script>
@@ -101,7 +101,7 @@
                     </div>
 
                     <div class="section-2_about">
-                        <h1>LiÊN HỆ VỚI CHÚNG TÔI <a href="tel:0833666666"><img class="image_hotline" src="../images/phone_hotline.png" alt="hotline"></a> </h1>
+                        <h1>LiÊN HỆ VỚI CHÚNG TÔI </h1>
 
                     </div>
                     <div class="section-2_video">
@@ -318,7 +318,9 @@
             </div>
         </div>
         {{-- end footer --}}
-
+<div class="calll">
+    <a href="tel:0833666666"><img class="image_hotline" src="../images/phone_hotline.png" alt="hotline"></a> 
+</div>
 
 
     </div>
