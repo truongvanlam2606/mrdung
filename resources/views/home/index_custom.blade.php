@@ -25,35 +25,7 @@
         left: 20px !important;
 }
     </style> --}}
-       <!-- Load Facebook SDK for JavaScript -->
-       <div id="fb-root"></div>
-       <script>
-         window.fbAsyncInit = function() {
-           FB.init({
-            alignment: 'left',
-             xfbml            : true,
-             version          : 'v5.0'
-           });
-         };
- 
-         (function(d, s, id) {
-         var js, fjs = d.getElementsByTagName(s)[0];
-         if (d.getElementById(id)) return;
-         js = d.createElement(s); js.id = id;
-         js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
-         fjs.parentNode.insertBefore(js, fjs);
-       }(document, 'script', 'facebook-jssdk'));</script>
- 
-       <!-- Your customer chat code -->
-       <div class="fb-customerchat"
-         attribution=setup_tool
-         page_id="1618735408372301"
-   theme_color="#0084ff"
-   logged_in_greeting="Xin chào, mình có thể giúp gì cho bạn?"
-   logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
-       </div>
- 
-     {{--  end fb--}}
+
     <div class="page">
         {{-- section 1 --}}
         <div class="row section-1">
@@ -318,9 +290,38 @@
             </div>
         </div>
         {{-- end footer --}}
-<div class="calll">
-    <a href="tel:0833666666"><img class="image_hotline" src="../images/phone_hotline.png" alt="hotline"></a> 
-</div>
+    <div class="calll">
+        <a href="tel:0833666666"><img class="image_hotline" src="../images/phone_hotline.png" alt="hotline"></a> 
+    </div>
+           <!-- Load Facebook SDK for JavaScript -->
+           <div id="fb-root"></div>
+           <script>
+             window.fbAsyncInit = function() {
+               FB.init({
+                 xfbml            : true,
+                 version          : 'v5.0'
+               });
+             };
+     
+             (function(d, s, id) {
+             var js, fjs = d.getElementsByTagName(s)[0];
+             if (d.getElementById(id)) return;
+             js = d.createElement(s); js.id = id;
+            //  js.src = 'https://connect.facebook.net/vi_VN/sdk/xfbml.customerchat.js';
+             js.src = 'https://connect.facebook.net/en_US/sdk/xfbml.customerchat.js#xfbml=1&version=v2.12&autoLogAppEvents=1';
+             fjs.parentNode.insertBefore(js, fjs);
+           }(document, 'script', 'facebook-jssdk'));</script>
+     
+           <!-- Your customer chat code -->
+           <div class="fb-customerchat"
+             attribution=setup_tool
+             page_id="1618735408372301"
+       theme_color="#0084ff"
+       logged_in_greeting="Xin chào, mình có thể giúp gì cho bạn?"
+       logged_out_greeting="Xin chào, mình có thể giúp gì cho bạn?">
+           </div>
+     
+         {{--  end fb--}}
 
 
     </div>
