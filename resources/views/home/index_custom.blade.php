@@ -22,6 +22,7 @@
        <script>
          window.fbAsyncInit = function() {
            FB.init({
+            alignment: 'left',
              xfbml            : true,
              version          : 'v5.0'
            });

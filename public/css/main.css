@@ -480,3 +480,11 @@
 .price-table_2{
     font-size: 22px;
 }
+/* 
+@media (max-width: 540px){
+    .col-md-8 {
+        flex: 0 0 100% !important; 
+        max-width: 100% !important;
+    }
+} */
+
