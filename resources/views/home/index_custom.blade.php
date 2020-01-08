@@ -21,8 +21,8 @@
         .fb_dialog {
         position: -webkit-sticky !important;
         position: fixed !important;
-        bottom: 20ch !important;
-        right: 20px !important;
+        bottom: 20px !important;
+        left: 20px !important;
 }
     </style>
        <!-- Load Facebook SDK for JavaScript -->
