@@ -123,8 +123,8 @@
                         <div class="info_bank">
                             <h3> SỐ TÀI KHOẢN NGÂN HÀNG, MOMO </h3>
                             <p> Nội dung bắt buộc: </p>
-                            <p> Mua thẻ cào + tên game + tên nhân vật + SĐT </p>
-                            <p> Ví dụ: Mua the cao Fan888 emgaihanoi 083xxx8888 </p>
+                            <p> Tên game + Tên nhân vật </p>
+                            <p> Ví dụ: FAN emgaihanoi </p>
                         </div>
 
                         <div class="row section-2_bank">
