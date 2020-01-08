@@ -481,7 +481,7 @@
     font-size: 22px;
 }
 .calll{
-    position: absolute;
+    position: fixed;
     bottom: 0;
     left: 0;
 }
