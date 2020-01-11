@@ -1,8 +1,8 @@
 .page {
     width: 100%;
-    background-image: url(../images/section_2.jpg);
-    background-position: center;
-    background-size: contain;
+    background-image: url(../images/2.jpg);
+    /* background-position: center;
+    background-size: contain; */
 }
 
 .image {
@@ -110,6 +110,7 @@
 .section-2-all {
     height: 100%;
     background-image: url(../images/pac_bg.jpg), url(../images/section_2.jpg);
+    /* background-color: #0c4585; */
     background-position: right bottom, left top;
     background-repeat: repeat, repeat;
 }
@@ -144,20 +145,20 @@
     position: relative;
 
     animation-name: tuanngoc_s_2;
-    animation-duration: 5s;
+    animation-duration: 10s;
     animation-iteration-count: infinite;
     animation-delay: 2s;
 }
 
 @keyframes tuanngoc_s_2 {
     from {
-        left: -150px;
-        right: -150px;
+        left: -120px;
+        right: -120px;
     }
 
     to {
-        left: 150px;
-        right: 150px;
+        left: 120px;
+        right: 120px;
     }
 }
 
@@ -227,11 +228,12 @@
 }
 
 .bank_left {
-    border-right: 3px solid#d2cd21;
+    /* border-right: 3px solid#d2cd21; */
     display: flex;
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-left: 36px;
 }
 
 .bank_left h4 {
@@ -246,6 +248,7 @@
     justify-content: center;
     flex-direction: column;
     text-align: center;
+    padding-right: 36px !important;
 }
 
 .bank_right h4 {
@@ -284,9 +287,12 @@
 
 .footer {
     width: 100%;
-    background-color: rgb(238, 235, 102);
+    background-color: #0c4585;;
 }
-
+.row{
+    margin-right: 0px !important;
+    margin-left: 0px !important;
+}
 .footer {
     margin: 0 !important;
 }
@@ -299,7 +305,7 @@
 
 .footer_content h1 {
     font-weight: bold;
-    color: rgb(28, 16, 145);
+    color: white;
     font-size: 13px;
     text-align: center;
     line-height: 1.4;
@@ -309,7 +315,7 @@
 .isoical {
     width: 100%;
     margin: auto;
-    background-color: #1c1c1c;
+    background-color: #07433e;
     color: white;
 }
 
@@ -334,7 +340,6 @@
 
 .isoical-1 {
     margin: 25px 15px;
-    margin-top: 0;
 }
 
 .isoical-1 h4 {
@@ -352,7 +357,6 @@
 .isoical_content {
     display: flex;
     justify-content: center;
-    align-items: center;
 }
 
 .register {
@@ -416,6 +420,23 @@
 
 .r1 {
     text-align: center;
+
+    
+}
+.r1 h3{
+    animation-name: r1_red;
+    animation-duration: 1s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes r1_red {
+    from {
+        color: white;
+    }
+
+    to {
+        color: red;
+    }
 }
 
 
@@ -485,6 +506,12 @@
     bottom: 0;
     left: 0;
 }
+
+.zalo{
+    position: fixed;
+    bottom: 0;
+    right: 100px;
+}
 /* 
 @media (max-width: 540px){
     .col-md-8 {
@@ -493,3 +520,11 @@
     }
 } */
 
+.bank_left_table_1{
+    margin: 20px;
+    font-size: 22px;
+}
+.bank_left_table_2{
+    margin: 20px;
+    font-size: 22px;
+}
